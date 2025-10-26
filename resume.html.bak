@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - My Professional Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">My Profile</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+                <li><a href="biodata.html">Bio-Data</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="resume-page">
+        <div class="container">
+            <section class="resume-header">
+                <h1>Professional Resume</h1>
+                <div class="download-btn">
+                    <a href="documents/tns_resume_with_additions.pdf" class="btn" target="_blank"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </section>
+
+            <section class="resume-section">
+                <h2>Professional Summary</h2>
+                <p>Dynamic developer with hands-on experience building hospital management and travel tracker web applications using front-end and back-end technologies. Skilled in full-stack development, problem solving, and effective teamwork. Committed to delivering robust, user-friendly solutions in fast paced environments.</p>
+            </section>
+
+            <section class="resume-section">
+                <h2>Work Experience</h2>
+                <div class="experience-item">
+                    <h3>Senior Web Developer</h3>
+                    <p class="company">Tech Solutions Inc.</p>
+                    <p class="date">2023 - Present</p>
+                    <ul>
+                        <li>Lead development of responsive web applications</li>
+                        <li>Mentor junior developers and conduct code reviews</li>
+                        <li>Implement best practices for web development</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Web Developer</h3>
+                    <p class="company">Digital Creations</p>
+                    <p class="date">2020 - 2023</p>
+                    <ul>
+                        <li>Developed and maintained client websites</li>
+                        <li>Collaborated with design team on UI/UX improvements</li>
+                        <li>Optimized website performance and SEO</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="resume-section">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p class="school">University of Technology</p>
+                    <p class="date">2016 - 2020</p>
+                </div>
+            </section>
+
+            <section class="resume-section">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <ul>
+                            <li>React</li>
+                            <li>Vue.js</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>Docker</li>
+                            <li>AWS</li>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Professional Profile. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
